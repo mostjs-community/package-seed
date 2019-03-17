@@ -12,7 +12,9 @@ A starter kit for a [most/core](https://github.com/mostjs/core) package.
 
 1. Clone (or fork) the repo.
 2. If you clone, don’t forget to change the git remote.
-3. Edit `package.json` (don’t forget to rename the package and remove `"private": true`).
+3. Edit `package.json`
+   1. Search and replace `most-package-seed` with your package name of choice
+   2. Don’t forget to remove `"private": true`.
 4. Edit `README.md` for good measure.
 5. You’re ready to code.
 
