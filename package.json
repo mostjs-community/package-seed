@@ -17,7 +17,14 @@
     "type": "git",
     "url": "git+https://github.com/mostjs-community/PACKAGE-NAME.git"
   },
-  "keywords": [ "most", "mostjs", "reactive", "event", "async", "stream" ],
+  "keywords": [
+    "most",
+    "mostjs",
+    "reactive",
+    "event",
+    "async",
+    "stream"
+  ],
   "scripts": {
     "build": "npm run build:commonjs && npm run build:es2015 && npm run build:umd",
     "build:commonjs": "./node_modules/.bin/tsc -P cfg/tsconfig.commonjs.json",
@@ -36,7 +43,7 @@
     "@types/mocha": "^5.2.0",
     "@types/node": "^9.6.6",
     "@types/power-assert": "^1.5.0",
-    "mocha": "^3.4.2",
+    "mocha": "^6.0.2",
     "power-assert": "^1.5.0",
     "rollup": "^0.58.2",
     "rollup-plugin-node-resolve": "^3.3.0",
@@ -47,7 +54,10 @@
     "typescript": "^2.9.2",
     "uglify-js": "^3.0.14"
   },
-  "files": [ "dist", "lib" ],
+  "files": [
+    "dist",
+    "lib"
+  ],
   "peerDependencies": {
     "@most/core": "^1.2.3"
   }
